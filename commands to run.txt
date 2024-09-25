@@ -10,3 +10,13 @@ python3 manage.py makemigrations
 python3 manage.py migrate
 
 python3 manage.py runserver
+
+ctrl+c
+
+python3 manage.py createsuperuser
+
+Username: admin
+Email address: leave blank by pressing enter
+Password: Your choice, or use p@ssword123
+
+python3 manage.py runserver
